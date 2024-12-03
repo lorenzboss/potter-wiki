@@ -34,6 +34,12 @@ export default function RootLayout({
             <Link href="/en">English</Link>
             <span>|</span>
             <Link href="/de">Deutsch</Link>
+            <span>|</span>
+            <Link href="/fr">Français</Link>
+            <span>|</span>
+            <Link href="/it">Italiano</Link>
+            <span>|</span>
+            <Link href="/es">Español</Link>
           </div>
         </header>
         {children}

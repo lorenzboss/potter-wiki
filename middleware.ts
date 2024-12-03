@@ -1,7 +1,7 @@
 import { match } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 import { NextRequest, NextResponse } from "next/server";
-const locales = ["en", "de"];
+const locales = ["en", "de", "it", "fr", "es"];
 const defaultLocale = "en";
 const cookieName = "i18nlang";
 // Get the preferred locale, similar to the above or using a library
